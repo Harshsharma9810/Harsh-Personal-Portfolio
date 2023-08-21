@@ -5,3 +5,18 @@ var typed = new Typed(".text", {
   backDelay: 1000,
   loop: true
 });
+function sendEmail(){
+  Email.send({
+    Host : "smtp.elasticemail.com",
+    Username : "harshsharma9810@gmail.com",
+    Password : "33FE499BBDE9FB6C0FEE5166C2E40E689F0C",
+    To : 'harshsharma9810@gmail.com',
+    From : "harshsharma9810@gmail.com",
+    // ReplyTo: document.getElementById("email").value,
+    // From : document.getElementById("email").value,
+    Subject : "New Contact Form Enquiry",
+    Body : "And this is the body"
+}).then(
+  message => alert(message)
+);
+}
