@@ -58,8 +58,6 @@
         </div>
     </section>
 
-
-
 <section>
     <div class="services" id="services">
         <div class="container">
@@ -239,9 +237,9 @@
     </div>
 
     <div class="contact-form">
-        <form action="">
+        <form action="" onsubmit="sendEmail(); reset(); return false;">
             <input type="" placeholder="Name" required>
-            <input type="email" placeholder="Enter Your Email" required>
+            <input type="email" id="email" placeholder="Enter Your Email" required>
 
             <input type="" placeholder="Enter Your Subject">
             <textarea name="" id="" cols="40" rows="10" placeholder="Enter Your Message" required></textarea>
@@ -254,7 +252,8 @@
     <p>Developed by Harsh Sharma &#169; 2023</p>
 </div>
 <a href="" class="top"><i class='bx bx-up-arrow-alt'></i></a>
-
+<script src="https://smtpjs.com/v3/smtp.js
+"></script>
 <script src="script.js"></script>
 </body>
 </html>
