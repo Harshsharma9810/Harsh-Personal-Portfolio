@@ -14,8 +14,9 @@ function sendEmail(){
     From : "harshsharma9810@gmail.com",
     // ReplyTo: document.getElementById("email").value,
     // From : document.getElementById("email").value,
-    Subject : "New Contact Form Enquiry",
-    Body : "And this is the body"
+    Subject : document.getElementById("sub").value,
+    Body : document.getElementById("msg").value,
+
 }).then(
   message => alert(message)
 );
