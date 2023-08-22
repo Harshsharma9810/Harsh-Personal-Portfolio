@@ -192,6 +192,9 @@ body{
     line-height: 1.4;
     margin-bottom: 1.5rem;
 }
+.abouttext p span{
+    color: #0ef;
+}
 
 /* MY SERVICES */
 
@@ -323,10 +326,10 @@ section{
     width: 90%;
 }
 .progress-line.css span{
-    width: 70%;
+    width: 75%;
 }
 .progress-line.javascript span{
-    width: 65%;
+    width: 70%;
 }
 .progress-line.c span{
     width: 85%;
@@ -355,10 +358,10 @@ section{
     content: "90%";
 }
 .progress-line.css span::after{
-    content: "70%";
+    content: "75%";
 }
 .progress-line.javascript span::after{
-    content: "65%";
+    content: "70%";
 }
 .progress-line.c span::after{
     content: "85%";
